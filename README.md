@@ -9,7 +9,7 @@ Este repositório faz parte de um novo desafio proposto pela comunidade CodeLab,
 | Status | Desafio | Nome | Figma | Demo | Tecnologias Utilizadas 
 :---: | :---: | :---: | :---: | :---: | :---: |
 ✅ | 01 | Blog | <a href="https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=0-1&p=f&t=FuHGPmOY2STlnltp-0" target="_blank">Acessar</a> | <a href="https://blog-gabrielgal.vercel.app/" target="_blank">Acessar</a> | HTML, CSS, JavaScript 
-⚠️ | 02 | JordanShoes | <a href="https://bit.ly/codelab-desafio-2" target="_blank">Acessar</a> | Em breve| Em breve
+✅ | 02 | JordanShoes | <a href="https://bit.ly/codelab-desafio-2" target="_blank">Acessar</a> | <a href="https://jordan-gabrielgal.vercel.app/" target="blank">Acessar</a> | Em breve
 ⚠️ | 03 | TechBlog | <a href="https://bit.ly/codelab-desafio-3" target="_blank">Acessar</a> | Em breve| Em breve
 ⚠️ | 04 | Login | <a href="https://bit.ly/codelab-desafio-4" target="_blank">Acessar</a> | Em breve| Em breve
 ⚠️ | 05 | Studio Ghibli | <a href="https://bit.ly/codelab-desafio-5" target="_blank">Acessar</a> | Em breve| Em breve
