@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --brand-color: #846aff;
+    --brand-color-hover: #6d51fc;
+
+    --dark: #121214;
+
+    --gray-10: #7c7c8a;
+    --gray-20: #eaeaea;
+    --gray-30: #eeeeff;
+    --gray-40: #f8f8ff;
+
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    background-color: var(--gray-40);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 80px 100px 80px 100px;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 581px;
+}
+
+.titulo-section {
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--dark);
+}
+
+.span-section {
+    color: var(--brand-color);
+}
+
+.texto-section {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--dark);
+}
+
+section div button {
+    border: 0px;
+    cursor: pointer;
+
+    background-color: var(--brand-color);
+    color: var(--white);
+    padding: 14px 32px 14px 32px;
+    width: 214px;
+
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+
+    transition: 0.2s;
+}
+
+section div button:hover {
+    background-color: var(--brand-color-hover);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 113px;
+
+    padding: 80px 100px 80px 100px;
+}
+
+main h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--dark);
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.card {
+    width: 384px;
+    border: 2px solid var(--gray-30);
+    border-radius: 8px;
+}
+
+.card-img {
+    height: 175px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.card-conteudo {
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-titulo {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark);
+}
+
+.card-texto {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--dark);
+}
+
+/* ENTRE EM CONTATO */
+
+.contato {
+    background-color: var(--gray-40);
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.contato h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--dark);
+}
+
+.contato-form-container {
+    width: 592px;
+    display: grid;
+    gap: 40px;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contato-form input {
+    padding: 19px 24px;
+    background-color: var(--white);
+    border: 1px solid var(--gray-20);
+    border-radius: 4px;
+
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--gray-10);
+}
+
+.contato-form-container button {
+    border: 0px;
+    border-radius: 4px;
+    padding: 14px 32px;
+
+    cursor: pointer;
+    background-color: var(--brand-color);
+
+    color: var(--white);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contato-form-container button:hover {
+    background-color: var(--brand-color-hover);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 1rem;
+    background-color: var(--gray);
+}
+
+footer p {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--dark);
+}
+
+footer a {
+    color: var(--brand-color-hover);
+    text-decoration: none;
+}
+
+@media (max-width: 1292px) {
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .container-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+        width: 550px;
+    }
+
+    .titulo-section {
+        font-size: 32px;
+    }
+
+    .texto-section {
+        font-size: 20px;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        padding: 80px 50px;
+        gap: 50px;
+    }
+
+    main h2 {
+        font-size: 28px;
+    }
+
+    .container-card {
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
+
+    .card {
+        width: 320px;
+    }
+
+    .card-img {
+        height: 150px;
+    }
+
+    .card-conteudo {
+        padding: 16px 16px;
+    }
+
+    .card-titulo {
+        font-size: 18px;
+    }
+
+    .card-texto {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 40px 100px;
+    }
+
+    section div img {
+        width: 300px;
+
+    }
+
+    .container-section {
+        width: 400px;
+    }
+    
+    .titulo-section {
+        font-size: 24px;
+    }
+    
+    .texto-section {
+        font-size: 16px;
+    }
+    
+    section div button {
+
+        padding: 10px 24px;
+        width: 180px;
+        font-size: 14px;
+    }  
+
+    main {
+        gap: 50px;
+        padding: 40px 30px;
+    }
+    
+    main h2 {
+        font-size: 24px;
+    }
+    
+    .container-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .card {
+        width: 300px;
+    }
+    
+    .card-img {
+        height: 130px;
+    }
+    
+    .card-conteudo {
+        padding: 16px 10px;
+    }
+    
+    .card-titulo {
+        font-size: 18px;
+    }
+    
+    .card-texto {
+        font-size: 16px;
+    }
+
+    /* ENTRE EM CONTATO */
+
+    .contato {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .contato h2 {
+        font-size: 24px;
+    }
+
+    .contato-form-container {
+        width: 350px;
+    }
+
+    .contato-form input {
+        padding: 15px 20px;
+    }
+
+    .contato-form-container button {
+        font-size: 12px;
+    }
+}
