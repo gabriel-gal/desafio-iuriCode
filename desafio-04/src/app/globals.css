@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+}
+
+body {
+  font-family: var("--font-archivo");
+  background-color: var(--white);
+}
